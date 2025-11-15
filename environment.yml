@@ -1,0 +1,14 @@
+name: dolar_historico
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - seaborn
+  - requests
+  - sqlite  # fornece binários do sqlite; o módulo sqlite3 já vem no Python
+  - pip
+  - pip:
+      - papermill
+      - nbconvert
